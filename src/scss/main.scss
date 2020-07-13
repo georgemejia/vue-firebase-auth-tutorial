@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.title {
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+.form-label {
+  margin-bottom: 8px;
+}
+
+.form-input {
+  box-sizing: border-box;
+  padding: 1em;
+  margin-bottom: 20px;
+}
+
+.form-btn {
+  padding: 1em;
+  background-color: rgb(108, 160, 194);
+  border: none;
+  color: #fff;
+}
